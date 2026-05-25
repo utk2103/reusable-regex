@@ -1,0 +1,20 @@
+# Fictional breach dump — all credentials are invented and non-functional
+# Format: email:password_hash (SHA256 shown for illustration only)
+alice.johnson@gmail.com:5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+bob.smith@yahoo.com:ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f
+charlie.brown@hotmail.com:plaintext123
+diana.prince@company.io:P@ssw0rd!2024
+evan.wright+test@sub.example.org:hunter2
+frank.castle@protonmail.com:aabbccdd11223344aabbccdd11223344
+grace.hopper@university.edu:correct-horse-battery-staple
+henry.ford@enterprise.co.uk:Winter2024!
+isabella.garcia@outlook.com:qwerty123456
+james.bond@mi6.gov.uk:007licensed2kill
+karen.page@lawfirm.net:Abcdef@1234
+lena.oxton@overwatch.gg:D.Va4ever!
+mike.chen@startup.ai:b94d27b9934d3e08a52e52d7da7dabfac484efe04294e576b12f03b2b07a37d2
+nora.ellison@healthcare.org:S3cur3M3d!c@l
+oscar.wilde@literary.ie:TheImportanceOf8eard
+peter.parker@dailybugle.com:sp1derm@n
+quinn.hart@research.edu:Ph0ton1cs_Lab
+rachel.green@coffee.com:lobster123

@@ -1,0 +1,16 @@
+1728565200.123    342 192.168.1.101 TCP_MISS/200 15234 GET http://update.software.com/v2/check - DIRECT/93.184.216.34 application/json
+1728565201.456    127 10.0.2.15 TCP_HIT/200 8192 GET http://cdn.example.net/assets/app.min.js - NONE/- text/javascript
+1728565202.789    891 172.16.5.22 TCP_MISS/301 512 GET http://malware-c2.example.org/gate.php - DIRECT/198.51.100.200 text/html
+1728565203.012    234 192.168.1.105 TCP_MISS/200 45678 POST https://api.github.com/repos/owner/repo/issues - DIRECT/140.82.121.4 application/json
+1728565204.345    56  10.0.2.30 TCP_HIT/200 2048 GET https://fonts.googleapis.com/css2?family=Inter - NONE/- text/css
+1728565205.678    3421 192.168.1.200 TCP_MISS/200 102400 GET http://dl.suspicious-host.ru/payload.exe - DIRECT/91.108.4.15 application/octet-stream
+1728565206.901    89  172.16.0.5 TCP_MISS/200 892 GET https://api.ipify.org/?format=json - DIRECT/209.197.3.8 application/json
+1728565207.234    445 10.0.1.50 TCP_MISS/403 340 POST http://blocked.domain.com/submit - DIRECT/203.0.113.50 text/html
+1728565208.567    1200 192.168.10.8 TCP_MISS/200 5120 GET https://pastebin.com/raw/xYzAbCdE - DIRECT/104.20.6.46 text/plain
+1728565209.890    78  10.0.0.1 TCP_MISS/204 0 OPTIONS https://api.example.com/v1/ping - DIRECT/192.0.2.10 -
+1728565210.123    567 192.168.1.101 TCP_MISS/200 34567 GET http://cdn.analytics.io/track.js - DIRECT/151.101.1.57 text/javascript
+1728565211.456    2345 172.16.5.22 TCP_MISS/200 8192 POST https://exfil.attacker.net/upload?id=session123 - DIRECT/198.51.100.77 application/json
+1728565212.789    123 10.0.2.15 TCP_HIT/200 4096 GET https://static.cloudflare.com/beacon.min.js - NONE/- text/javascript
+1728565213.012    890 192.168.1.80 TCP_MISS/200 23456 GET http://windowsupdate.microsoft.com/v3/catalog - DIRECT/20.60.20.80 application/xml
+1728565214.345    334 10.0.3.100 TCP_MISS/200 1024 GET https://raw.githubusercontent.com/user/repo/main/config.yaml - DIRECT/185.199.108.133 text/plain
+1728565215.678    4567 192.168.1.55 TCP_MISS/200 204800 GET http://torrent-tracker.example.com/announce?info_hash=abc123 - DIRECT/45.33.32.101 text/plain

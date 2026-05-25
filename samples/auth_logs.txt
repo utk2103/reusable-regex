@@ -1,0 +1,21 @@
+May 25 08:01:02 webserver sshd[1234]: Failed password for invalid user admin from 203.0.113.42 port 51823 ssh2
+May 25 08:01:05 webserver sshd[1234]: Failed password for invalid user root from 203.0.113.42 port 51824 ssh2
+May 25 08:01:08 webserver sshd[1234]: Failed password for invalid user ubuntu from 203.0.113.42 port 51825 ssh2
+May 25 08:01:11 webserver sshd[1235]: Accepted publickey for deploy from 10.0.1.15 port 43210 ssh2: RSA SHA256:abc123def456abc123def456abc123def456abc123def456abc123def456abcd
+May 25 08:01:15 webserver sudo[2001]: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 25 08:02:00 webserver sshd[1236]: Failed password for invalid user guest from 198.51.100.88 port 34567 ssh2
+May 25 08:02:03 webserver sshd[1236]: Failed password for invalid user test from 198.51.100.88 port 34568 ssh2
+May 25 08:02:06 webserver sshd[1236]: Failed password for invalid user pi from 198.51.100.88 port 34569 ssh2
+May 25 08:02:10 webserver sshd[1236]: Maximum authentication attempts exceeded for invalid user pi from 198.51.100.88 port 34569 ssh2 [preauth]
+May 25 08:03:00 webserver PAM[3001]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=45.33.32.156 user=root
+May 25 08:03:01 webserver sshd[1237]: Failed password for root from 45.33.32.156 port 22 ssh2
+May 25 08:04:00 webserver sshd[1238]: Accepted password for bob from 192.168.1.55 port 55001 ssh2
+May 25 08:04:05 webserver sudo[2050]: bob : TTY=pts/1 ; PWD=/var/www ; USER=www-data ; COMMAND=/usr/bin/php artisan migrate
+May 25 08:05:00 webserver nginx[900]: client 172.16.3.22 sent Authorization header: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzQ3IiwiZW1haWwiOiJhbGljZUBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyODU2NTIwMCwiZXhwIjoxNzI4NjUxNjAwfQ.signatureplaceholder123
+May 25 08:05:30 webserver sshd[1239]: Invalid user scanner from 91.108.4.15 port 41000
+May 25 08:05:31 webserver sshd[1239]: Connection closed by invalid user scanner 91.108.4.15 port 41000 [preauth]
+May 25 08:06:00 webserver cron[5001]: (www-data) CMD (/usr/bin/curl -s http://10.0.0.5/healthcheck > /dev/null)
+May 25 08:07:00 webserver sshd[1240]: Accepted publickey for ops from 10.0.0.50 port 44444 ssh2
+May 25 08:08:00 webserver sudo[2100]: ops : TTY=pts/2 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/docker ps -a
+May 25 08:09:00 webserver sshd[1241]: Failed password for invalid user ftpuser from 203.0.113.200 port 22222 ssh2
+May 25 08:10:00 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=198.51.100.1 DST=10.0.0.1 LEN=60 PROTO=TCP DPT=22

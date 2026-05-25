@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# reusable-regex project
+outputs/extracted_results/*.json
+outputs/extracted_results/*.txt
+outputs/extracted_results/*.csv
+.DS_Store
