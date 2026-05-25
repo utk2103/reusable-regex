@@ -1,3 +1,4 @@
+from .uvicorn_logs import UvicornLogPattern
 from .ipv4 import IPv4Pattern
 from .emails import EmailPattern
 from .urls import URLPattern

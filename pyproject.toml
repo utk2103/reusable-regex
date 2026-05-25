@@ -24,6 +24,7 @@ dev = [
 ioc-extract = "cli.extract_iocs:app"
 log-scan = "cli.scan_logs:app"
 secret-detect = "cli.detect_secrets:app"
+parse-logs = "cli.parse_logs:app"
 
 [tool.setuptools.packages.find]
 where = ["."]
